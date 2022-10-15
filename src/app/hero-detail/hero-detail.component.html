@@ -4,7 +4,7 @@
   <div><span>id: </span> {{ hero.id }}</div>
 
   <div>
-    <label for="hero-name"></label>
+    <label for="hero-name">Hero name: </label>
 
     <input
       id="hero-name"
@@ -13,4 +13,6 @@
       placeholder="name"
     />
   </div>
+
+  <button (click)="goBack()">go back</button>
 </div>
